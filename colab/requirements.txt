@@ -1,0 +1,67 @@
+Dependencies for:
+
+flask.py
+	!pip install flask
+	!pip install PyPDF2
+	!pip install opencv-python
+
+pdfconvert.py
+	!apt-get install poppler-utils 
+	!pip install pdf2image
+
+table_extraction.py 
+	!sudo apt install tesseract-ocr
+	!pip install pytesseract
+
+text_extraction.py
+	!sudo apt install tesseract-ocr
+	!pip install pytesseract
+	!pip install textblob
+
+Dir Structure
+/INPUT flask.py
+/INPUT pdfconvert.py
+/INPUT digital_processing.py
+/INPUTtable_extraction.py
+/INPUT text_extraction.py
+/INPUT templates
+	/INPUT index.html
+/static
+	/INPUT index.css
+/output
+	/dataset1/
+		OUTPUT invoice.pdf
+		OUTPUT 1.jpg 
+		OUTPUT 2.jpg
+		OUTPUT 3.jpg
+		OUTPUT cropped1.jpg
+		OUTPUT cropped2.jpg
+		OUTPUT cropped3.jpg
+		OUTPUT excel1.jpg
+		OUTPUT excel2.jpg
+		OUTPUT excel3.jpg
+		OUTPUT desttable1.jpg
+		OUTPUT desttable2.jpg
+		OUTPUT desttable3.jpg
+		OUTPUT desttext1.jpg
+		OUTPUT desttext2.jpg
+		OUTPUT desttext3.jpg
+	OUTPUT dt1.zip
+
+
+Steps:
+1) Install all the dependencies
+2) Create directory output/dataset1/ from ur current directory
+3) Copy all the ipynb in your current directory.
+4) Create templates folder from your current directory and copy index.html.
+5) Create static folder from your current directory and copy invoice.png and index.css files.
+6) Finally check for the path and dependencies and run the flask.ipynb file.
+7) You can find the final output as zip in /output as dt1.zip or as assets in /output/dataset1/
+8) You can also run the python script without the flask part by placing the input invoice file in your current directory.
+
+
+
+
+
+
+
