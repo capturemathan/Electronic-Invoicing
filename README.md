@@ -1,28 +1,58 @@
 # Electronic-Invoicing 
 Scanned invoices are extracted using image processing to reduce the non-reliability and man-power in calculating payments and invoice bills. Additionally, the whole payment process is automated with less turn around time and more flexibility in the invoice templates.
 
-<img width="1000" height="500" src="images/web.jpg">
+<img width="1024" height="512" src="images/web.jpg">
 
-## Snippets
-<img align="left" width="180" height="300" src="images/snippets/dataset1/desttable1.jpg">
-<img align="center" width="180" height="300" src="images/snippets/dataset1/desttext1.png">
+## Deliverables (as promised) :wink:
+1. Accurate Prediction
+2. Reducing cost of time and space
+3. Automating changes and cycles
+4. Reliability of data is ensured after every updation
+5. Ease of access
+6. Standard Invoice Format ensured
+7. Scalable to any structured and unstructured documents
 
-## Deliverables
-<img  width="500" height="500" src="images/deliverables.jpg">
+## Instructions (Let's get going)
+#### A detailed explanation of the CODE and the EXECUTION is available at [E-Invoicing](http://sathiyajith.github.io/)
+`RECOMMENDED: Running in GOOGLE COLAB provides faster results and interactivity`
 
-## Instructions 
-As the video was large, we uploaded it in Youtube.
-Please refer to video here - 
+#### Directory Structure (Initial SETUP for COLAB & LOCALHOST)
+``` bash
+/flask.py
+/pdfconvert.py
+/digital_processing.py
+/table_extraction.py
+/text_extraction.py
+/templates
+  /index.html
+/static
+  /index.css
+/output
+  /dataset1/
+    invoice.pdf
+```
+#### Important Points
+1. `static` & `templates` are required for FLASK operation.
+2. Place the TEST INVOICE inside `output/dataset1`.
+3. `.py` files in the root folder are responsible for the extraction processes.
+4. At any time during the entire running of the program, intermediate O/P's are present at `output/dataset1`.
 
-Instructions:
-1) Install all the dependencies mentioned in the requirements.txt if you are running in localhost. 
-2) The output directory is given as output/dataset1/. So to run the program, create that path from your current directory either in the local machine or in the GDrive to which colab is attached to.
-	Note: Running in colab is recommended to get better performance.
-4) Move all the five 5 ipynb modules and 2 folders (static, templates) to your current directory in local machine or in colab.
-5) If you are running in Colab, connect to the runtime environment and mount the GDrive.
-6) Now, after installing the dependencies in local machine, run the flask.py file. Otherwise, give RUN ALL in flask.ipynb file in Colab. It will automatically install all the dependencies.
-7) After uploading the invoice pdf file, give "upload".
-8) The "convert" button will later be enabled. Click the convert button.
-9) Now a "download" button will appear. Also a .zip file created with all the assets in the "output" folder called dt1.zip
-	Note: The "download" button will work only in colab, only when the url for the zip is given. But the zip will be created already both in the localhost and GDrive.
-10) If there are any issues, I request you to mailto sathiyajith19@gmail.com
+##### Running in GOOGLE COLAB 
+1. Ensure the above directory structure is maintained by moving all the 5 `.ipynb` modules and 2 folders `static` and `templates`.
+2. Connect to the runtime environment and mount the GDrive.
+3. `RUN ALL Cells` in `flask.ipynb` to fire up the WEB SERVER :tada:
+4. Upload the invoice
+5. Initially the `CONVERT` button is blocked and after `pre-processing` it is enabled.
+6. The final O/P's are available at `output/dataset1` including pre-processing steps. (In case the process is slow please refer to this directory)
+7. Finally `.zip` containing all the required information is available at `output/dt1.zip`
+
+##### Running in LOCALHOST
+1. Clone the repo and extract the `localhost` code to a seperate folder.
+2. `pip install -r requirements.txt` located [here](https://github.com/sathiyajith/Electronic-Invoicing/tree/master/localhost)
+3. Run `python index.py` inside the directory and you're good to go :tada:
+4. Upload the invoice
+5. Initially the `CONVERT` button is blocked and after `pre-processing` it is enabled.
+6. The final O/P's are available at `output/dataset1` including pre-processing steps. (In case the process is slow please refer to this directory)
+7. Finally `.zip` containing all the required information is available at `output/dt1.zip`
+
+If there are any issues, I request you to [mailto](sathiyajith19@gmail.com)
