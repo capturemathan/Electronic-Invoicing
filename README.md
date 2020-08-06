@@ -38,6 +38,7 @@ Scanned invoices are extracted using image processing to reduce the non-reliabil
 4. At any time during the entire running of the program, intermediate O/P's are present at `output/dataset1`.
 
 ##### Running in GOOGLE COLAB 
+  You can either directly mount this [Colab drive link](https://drive.google.com/drive/folders/1USPT8qZWsm1NESfjkmQFaStyImsr2mL-?usp=sharing) in your colab, change path according to the project structure from your GDrive in the code and run flask.py or follow the below mentioned steps.
 1. Ensure the above directory structure is maintained by moving all the 5 `.ipynb` modules and 2 folders `static` and `templates`.
 2. Connect to the runtime environment and mount the GDrive.
 3. `RUN ALL Cells` in `flask.ipynb` to fire up the WEB SERVER :tada:
