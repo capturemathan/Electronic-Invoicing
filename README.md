@@ -55,4 +55,4 @@ Scanned invoices are extracted using image processing to reduce the non-reliabil
 6. The final O/P's are available at `output/dataset1` including pre-processing steps. (In case the process is slow please refer to this directory)
 7. Finally `.zip` containing all the required information is available at `output/dt1.zip`
 
-If there are any issues, I request you to [mailto](sathiyajith19@gmail.com)
+If there are any issues, I request you to [mailto](mailto:sathiyajith19@gmail.com)
