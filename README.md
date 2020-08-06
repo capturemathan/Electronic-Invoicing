@@ -4,13 +4,11 @@ Scanned invoices are extracted using image processing to reduce the non-reliabil
 <img width="1000" height="500" src="images/web.jpg">
 
 ## Snippets
-<div>
-<img align="left" width="400" height="500" src="images/snippets/dataset1/desttable1.jpg">
-<img align="right" width="400" height="500" src="images/snippets/dataset1/desttext1.png">
-</div>
+<img align="left" width="180" height="300" src="images/snippets/dataset1/desttable1.jpg">
+<img align="center" width="180" height="300" src="images/snippets/dataset1/desttext1.png">
 
 ## Deliverables
-<img align="left" width="500" height="500" src="images/deliverables.jpg">
+<img  width="500" height="500" src="images/deliverables.jpg">
 
 ## Instructions 
 As the video was large, we uploaded it in Youtube.
