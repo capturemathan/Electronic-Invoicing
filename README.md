@@ -1,14 +1,14 @@
 # Electronic-Invoicing 
 Scanned invoices are extracted using image processing to reduce the non-reliability and man-power in calculating payments and invoice bills. Additionally, the whole payment process is automated with less turn around time and more flexibility in the invoice templates.
 
-<img width="500" height="500" src="images/web.jpg">
+<img width="1000" height="500" src="images/web.jpg">
 
 ## Snippets
-<img align="left" width="180" height="300" src="images/snippets/dataset1/desttable1.jpg">
-<img align="left" width="180" height="300" src="images/snippets/dataset1/desttext1.png">
+<img align="left" width="500" height="500" src="images/snippets/dataset1/desttable1.jpg">
+<img align="left" width="500" height="500" src="images/snippets/dataset1/desttext1.png">
 
 ## Deliverables
-<img width="500" height="500" src="images/deliverables.jpg">
+<img height="500" src="images/deliverables.jpg">
 
 ## Instructions 
 As the video was large, we uploaded it in Youtube.
