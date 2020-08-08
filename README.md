@@ -13,7 +13,7 @@ Scanned invoices are extracted using image processing to reduce the non-reliabil
 7. Scalable to any structured and unstructured documents
 
 ## Instructions (Let's get going)
-#### A detailed explanation of the CODE and the EXECUTION is available at [E-Invoicing](http://sathiyajith.github.io/)
+#### A detailed explanation of the CODE and the EXECUTION is available at [E-Invoicing](https://bit.ly/flipkartinvoicing)
 `RECOMMENDED: Running in GOOGLE COLAB provides faster results and interactivity`
 
 #### Directory Structure (Initial SETUP for COLAB & LOCALHOST)
