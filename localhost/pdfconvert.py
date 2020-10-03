@@ -1,7 +1,7 @@
 #
 # Copyright (c) 2020 | Sathiyajith KS & Mathana Kumar S
 #
-# -*- coding: utf-8 -*-
+
 """pdfconvert.ipynb"""
 from pdf2image import convert_from_path
 
