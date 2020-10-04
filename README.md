@@ -12,7 +12,7 @@ Scanned invoices are extracted using image processing to reduce the non-reliabil
 6. Standard Invoice Format ensured
 7. Scalable to any structured and unstructured documents
 
-## A detailed explanation of the CODE and the EXECUTION is available at [E-Invoicing](https://bit.ly/flipkartinvoicing)
+### A detailed explanation of the CODE and the EXECUTION is available at [E-Invoicing](https://bit.ly/flipkartinvoicing)
 
 ## Instructions (Let's get going)
 
@@ -38,6 +38,7 @@ Scanned invoices are extracted using image processing to reduce the non-reliabil
 2. Place the TEST INVOICE inside `output/dataset1`.
 3. `.py` files in the root folder are responsible for the extraction processes.
 4. At any time during the entire running of the program, intermediate O/P's are present at `output/dataset1`.
+5. Every `function` present in the CODE has a clear `DOCSTRING` attached to it which can be called using `help(function-name)` (or) `function-name.__doc__`
 
 ##### Running in GOOGLE COLAB 
   You can either directly mount this [Colab drive link](https://drive.google.com/drive/folders/1USPT8qZWsm1NESfjkmQFaStyImsr2mL-?usp=sharing) in your colab, change path according to the project structure from your GDrive in the code and run flask.py or follow the below mentioned steps.

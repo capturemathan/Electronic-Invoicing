@@ -1,9 +1,8 @@
 #
 # Copyright (c) 2020 | Sathiyajith KS & Mathana Kumar S
 #
-# -*- coding: utf-8 -*-
-"""text_extraction"""
 
+"""text_extraction"""
 
 import pytesseract
 from PIL import Image,ImageDraw,ImageFont
@@ -25,7 +24,6 @@ def extractText(imgpath):
             String: the raw text extracted from image. 
   """
   extractedInformation = pytesseract.image_to_string(Image.open(imgpath))
-  #print(extractedInformation)
   return extractedInformation
 
 def writeExcel(string,destpath):

@@ -1,7 +1,7 @@
 #
 # Copyright (c) 2020 | Sathiyajith KS & Mathana Kumar S
 #
-# -*- coding: utf-8 -*-
+
 """table_extraction1.ipynb"""
 
 import cv2

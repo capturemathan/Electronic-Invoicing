@@ -1,7 +1,7 @@
 #
 # Copyright (c) 2020 | Sathiyajith KS & Mathana Kumar S
 #
-# -*- coding: utf-8 -*-
+
 """flask.ipynb"""
 
 from flask import *
@@ -14,9 +14,6 @@ import os
 from flask_ngrok import run_with_ngrok
 
 """**PDF To Image**"""
-
-# Commented out IPython magic to ensure Python compatibility.
-# %cd /content/drive/My Drive/Colab Notebooks
 
 """
 pdfconvert
